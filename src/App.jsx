@@ -98,7 +98,7 @@ function App() {
         endpoint = 'upload-image';
       }
 
-      const response = await fetch(`http://localhost:5000/api/${endpoint}`, {
+      const response = await fetch(`https://backend-for-extractor.onrender.com/api/${endpoint}`, {
         method: 'POST',
         body: formData,
       });
